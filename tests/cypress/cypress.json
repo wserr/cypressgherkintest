@@ -1,0 +1,11 @@
+{
+    "baseUrl": "https://localhost:5002",
+    "testFiles": "**/*.{feature,features}",
+    "chromeWebSecurity": false,
+    "env": {
+        "admin_user_name": "alice",
+        "admin_password": "password",
+        "user_user_name": "bob",
+        "user_password": "password"
+    }
+}
